@@ -7,7 +7,7 @@ import './styles.css' ;
 
 ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
-        <FirstApp />
+        <FirstApp title = "Title"   subTitle = "subTitle" num = { 123 } />
     </React.StrictMode>
 );
 
