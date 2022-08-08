@@ -30,7 +30,14 @@ export const FirstApp = ( { title, subTitle, num  }) => {
 
 // component mandatory variables
 FirstApp.propTypes = {
-  title: PropTypes.string.isRequired,
-  subTitle :   PropTypes.string.isRequired,
   num :  PropTypes.number.isRequired,
+  subTitle :   PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+}
+
+FirstApp.defaultProps = {
+  num :  0 ,
+  subTitle :  'not subtitle',
+  title: ' not title ',
+  titleTwo : 'not title Two',
 }
